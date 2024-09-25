@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #282c34;
+    --secondary-color: #f4f4f4;
+    --text-color: white;
+    --padding: 10px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.content {
+    flex: 1;
+    padding: var(--padding);
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+    .sidebar {
+        flex-direction: column;
+    }
+    .content {
+        padding: 15px;
+    }
+}

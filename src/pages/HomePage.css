@@ -1,0 +1,19 @@
+.homepage {
+    text-align: center;
+    padding: 20px;
+}
+
+.homepage h1 {
+    color: var(--primary-color);
+}
+
+.homepage h2 {
+    margin-top: 20px;
+}
+
+.homepage p {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+}
